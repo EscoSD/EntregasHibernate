@@ -36,7 +36,7 @@ public class Consultas {
 		for (Object[] array: list2)
 			System.out.print("\n" + array[0] + ".- " + array[1]);
 
-		// Consulta para obtener el artista con mas edad
+		// Consulta para obtener el artista con más edad
 		System.out.print("\n\nArtista con mas edad.- ");
 
 		Query<Artista> artistaMayor = session.createQuery("FROM Artista A WHERE A.edad = " +
