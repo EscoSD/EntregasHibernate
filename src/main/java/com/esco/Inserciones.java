@@ -1,6 +1,7 @@
 package com.esco;
 
 import com.esco.entidades.*;
+
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
