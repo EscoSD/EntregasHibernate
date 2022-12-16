@@ -9,7 +9,7 @@ import java.io.Serializable;
 public class Genero implements Serializable {
 
 	@Id
-	@GeneratedValue
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 
 	@Column

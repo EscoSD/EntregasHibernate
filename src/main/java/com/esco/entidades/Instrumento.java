@@ -10,8 +10,8 @@ import java.util.List;
 public abstract class Instrumento implements Serializable {
 
 	public enum Tipo {
-		Pulsada, Frotada, Percutida, Metal, Madera, Membranofono, Idiofono
 		// Las dos últimas llevan tilde pero no me gusta poner tildes a variables por si da problemas
+		Pulsada, Frotada, Percutida, Metal, Madera, Membranofono, Idiofono
 	}
 
 	@Id

@@ -6,11 +6,13 @@ Realiza diversos ejemplos de consultas.
 
 La base de datos llevará tu nombre.
 
-1 a 1 bidireccional (DOUJINSHI LECTOR)
-En mi mundo ideal, un lector tiene un doujin, que pertenece a un solo lector
+Herencia (Instrumento -> Viento Cuerda)
 
-1 a N   (Autor Doujinshi)
-Un autor tiene muchos doujins, un doujin pertenece a un solo autor
+1 a 1 bidireccional (Artista Tienda)
 
-N a N   (Doujinshi Librería)
+1 a 1 unidireccional (Género Artista)
+
+1 a N   (Artista Instrumento)
+
+N a N   (Tienda Instrumento)
 

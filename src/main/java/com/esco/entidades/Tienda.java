@@ -19,6 +19,7 @@ public class Tienda implements Serializable {
 	@Column(name = "dirección")
 	private String direc;
 
+	// Propietario de la relación con Instrumento
 	@ManyToMany(cascade = CascadeType.PERSIST)
 	@JoinTable(name = "instrumento_tienda",
 		joinColumns = {@JoinColumn(name = "FK_Tienda", referencedColumnName = "id")},

@@ -22,15 +22,18 @@ public class Artista implements Serializable {
 	@OneToMany(cascade = CascadeType.PERSIST, mappedBy = "artista")
 	private List<Instrumento> instrumentos;
 
+	// Propietario de la relación con Tienda
 	@OneToOne(cascade = CascadeType.PERSIST)
 	@JoinColumn(name = "FK_Tienda", referencedColumnName = "id")
 	private Tienda tienda;
 
+	// Propietario de la relación con Género
 	@OneToOne(cascade = CascadeType.PERSIST)
 	@JoinColumn(name = "FK_Género", referencedColumnName = "id")
 	private Genero genero;
 
-	public Artista() {}
+	public Artista() {
+	}
 
 	public Artista(String nombre, int edad, List<Instrumento> instrumentos, Tienda tienda, Genero genero) {
 		this.nombre = nombre;
