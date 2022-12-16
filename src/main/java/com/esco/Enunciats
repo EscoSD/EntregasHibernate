@@ -1,0 +1,16 @@
+Realiza un proyecto con Hibernate con, al menos, 4 entidades y distintas relaciones entre ellas.
+
+Incluye distintas aplicaciones que creen la estructura de tablas con sus relaciones y persistan datos en ella.
+
+Realiza diversos ejemplos de consultas.
+
+La base de datos llevará tu nombre.
+
+1 a 1 bidireccional (DOUJINSHI LECTOR)
+En mi mundo ideal, un lector tiene un doujin, que pertenece a un solo lector
+
+1 a N   (Autor Doujinshi)
+Un autor tiene muchos doujins, un doujin pertenece a un solo autor
+
+N a N   (Doujinshi Librería)
+
